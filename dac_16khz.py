@@ -7,7 +7,7 @@ from transformers import DacModel, AutoProcessor
 from torchaudio.transforms import Resample
 
 folder_path = "wav folder path"
-output_file = "Dac.csv"  
+output_file = "#Dac.csv"  
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Using device: {device}")
